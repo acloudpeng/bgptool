@@ -2,6 +2,16 @@
 
 **traceroute and MTR that show the ASN, location and ISP of every hop.**
 
+**简体中文** · traceroute / MTR 工具：每一跳都显示 ASN、归属地和运营商。单个 Linux 二进制，无任何依赖，装上就能用。
+
+**繁體中文** · traceroute / MTR 工具：每個節點都顯示 ASN、地理位置與電信業者。單一 Linux 執行檔，無相依套件，裝好即可使用。
+
+**English** · Traceroute and MTR that label every hop with its ASN, location and ISP. A single Linux binary with no dependencies.
+
+**日本語** · traceroute / MTR の各ホップに ASN・所在地・ISP を表示するツールです。依存関係のない Linux 単体バイナリで、導入後すぐに使えます。
+
+**한국어** · traceroute와 MTR의 모든 홉에 ASN, 위치, ISP를 표시하는 도구입니다. 의존성 없는 단일 Linux 바이너리로, 설치 즉시 사용할 수 있습니다.
+
 `bgptool` is a single-binary Linux networking tool. Instead of printing bare IP addresses like
 traditional `traceroute`, it annotates every hop with the network it belongs to — autonomous system,
 country / city and ISP — so you can see *where* a path goes, not just how many hops it took.
